@@ -1,0 +1,265 @@
+@import url(./fonts.css);
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Rubik";
+  
+}
+a{
+  text-decoration: none;
+}
+li{
+  list-style: none; 
+}
+
+
+.container{
+  max-width: 1140px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.nav{
+  background-color: #3E8989;
+  padding: 32px 0;
+}
+.nav_box{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.nav_link{
+  display: flex;
+  gap: 30px;
+}
+.link{
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18.96px;
+  color: #fff;
+  position: relative;
+}
+
+.nav_form{
+  overflow: hidden;
+  display: flex;
+  
+}
+.nav_input{
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18.96px;
+  color:  #898989;
+  outline: none;
+  border: none;
+  padding-left: 20px;
+  border-radius: 20px 0 0 20px;
+}
+.nav_button{
+  font-family: Rubik;
+  font-size: 14px;
+  font-weight: 400;
+  background: #295E5E;
+  color: #fff;
+  border: none;
+  padding: 9px 14px;
+  border-radius: 0 20px 20px 0;
+}
+
+.link:before{
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  width: 100%;
+  height: 3px;
+  background-color: white;
+  border-radius: 5px;
+  transition: all 0.5s ease;
+  opacity: 0;
+}
+.link:hover:before{
+  opacity: 1;
+}
+
+.intro{
+  background-image: url(../images/photo.png);
+  height: 800px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+.intro_title{
+  font-family: Rubik;
+  font-size: 80px;
+  font-weight: 600;
+  line-height: 94.8px;
+}
+
+.intro_text{
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 47.4px; 
+  margin-bottom: 20px ;
+}
+.intro_link{
+  background-color: #B4436C;
+  color: #fff;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 21.78px;
+  border-radius: 30px;
+  height: 50px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s ease;
+
+}
+.intro_link:hover,
+.intro_link::before{
+  background-color: #fff;
+  color: #B4436C;
+  transition: all 0.5s ease;
+}
+
+.section_title{
+  color: #3E8989;
+  font-family: Inter;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 48.41px;
+  text-align: center;
+  margin: 80px 0 50px 0;
+}
+.section_box{
+  display: flex;
+  gap: 20px;
+}
+.section_p{
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.33px;
+
+}
+.section_text{
+  margin-bottom: 20px;
+}
+
+
+.card{
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  background-color: #EFEFEF;
+  width: 100%;
+  height: 300px;
+}
+.section_card{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.section_card-link{
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29.05px;
+  color: #000000;
+  width: 263px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 25px;
+ 
+}
+.section_card-link:hover,
+.section_card-link::before{
+  color: #B4436C;
+  transition: all 0.5s ease;
+}
+
+.bottom_title{
+  color: #3E8989;
+  font-family: Inter;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 48.41px;  
+  margin: 100px 0 50px;
+}
+
+.section_bottom{
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 0 123px;
+}
+.bottom_box{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.bottom_text{
+  font-family: Rubik;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 23.7px;
+  color: #000000;
+  max-width: 500px;
+}
+.bottom_link{
+  font-family: Rubik;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 23.7px;
+  color: #000000;
+}
+.footer{
+  background-color: #3E8989;
+  padding-top: 40px;
+}
+.footer_link{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.footer_text{
+  display: flex;  
+  justify-content: center;
+  align-items: center;
+  padding: 60px 0 15px 0;
+}
+.li_link{
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18.96px;
+  color: #fff;
+}
+.footer_text-p{
+  font-family: Rubik;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.59px;
+  color: #fff;
+
+}
+.menu{
+  background-color: unset;
+  border: none;
+  cursor: pointer;
+  display: none;
+}
+.menu img{
+  width: 30px;
+}

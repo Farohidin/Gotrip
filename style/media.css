@@ -1,0 +1,168 @@
+@media(max-width:1140px) {
+    .container {
+        padding: 0 30px;
+    }
+
+    .section_card {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        place-items: center;
+        max-width: 600px;
+        margin: 0 auto;
+    }
+
+    .section_box {
+        flex-wrap: wrap;
+        justify-content: center;
+        max-width: 800px;
+        margin: 0 auto;
+    }
+
+    .section_title {
+        margin: 50px 0 30px 0;
+    }
+
+    .section_bottom,
+    .bottom_title {
+        margin: 20px 10px;
+    }
+
+    /* .footer_text{
+        padding: 30px 0 10px 0;
+    } */
+}
+
+@media(max-width:900px) {
+    .intro {
+        height: 600px;
+    }
+
+    .intro_title {
+        font-size: 60px;
+    }
+
+    .intro_text {
+        font-size: 30px;
+    }
+
+    .intro_link {
+        width: 150px;
+        height: 35px;
+        font-size: 14px;
+    }
+
+    .footer_text {
+        padding: 30px 0 10px 0;
+    }
+
+    .section_p {
+        font-size: 16px;
+        line-height: 17px;
+    }
+
+    .section_title {
+        margin: 20px 0 10px 0;
+    }
+
+    .footer {
+        padding: 20px;
+    }
+
+}
+
+@media(max-width:700px) {
+    .menu {
+        display: block;
+    }
+
+    .nav_link {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        display: none;
+    }
+    .bottom_text,
+    .bottom_link{
+        font-size: 17px;
+        line-height: 17px;
+    }
+    .bottom_link{
+        gap: 10px;
+    }
+ 
+    .bottom_title {
+        font-size: 30px;
+        margin: 10px 5px;
+    }
+    .section_title{
+        font-size: 30px;
+        margin: 10px 5px;
+    }
+}
+@media(max-width:550px){
+    .section_img{
+        max-width: 500px;
+    }
+    .section_card{
+        display: flex;
+        justify-content: left;
+        overflow-x: scroll ;
+    }
+    .card{
+        flex-shrink: 0;
+    }
+   
+}
+@media(max-width:500px){
+    .intro{
+        height: 300px;
+    }
+    .nav_input{
+        width: 150px;
+    }
+    .section_img{
+        width: 300px;
+    }
+    .section_p{
+        font-size: 10px;
+        line-height: 14px;
+    }
+    .intro_title{
+        font-size: 30px;
+    }
+    .intro_text{
+        font-size: 15px;
+        line-height: 37px;
+    }
+    .intro_link{
+        width: 50px;
+        height: 20px;
+        font-size: 7px;
+    }
+}
+@media(max-width:410px){
+    .nav_input{
+        width: 70px;
+        font-size: 10px;
+        
+    }
+    .nav_button{
+        padding: 5px 7px;
+        font-size: 7px;   
+    }
+    .bottom_text, 
+    .bottom_link{
+        font-size: 14px;  
+    }
+    .bottom_link{
+        gap: 10px;
+    }
+    
+}
+@media(max-width:360px){
+    .footer_link{
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+}
